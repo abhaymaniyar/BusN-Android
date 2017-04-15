@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:gravity="center"
+    android:background="#414141"
+    android:id="@+id/busListEntry"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/busDestinations"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="5"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#fff"
+        tools:text="aksjfdkaskdfalsasfasfasfasdasf aslkjfaksjfkjaks dkajsdf asdfajsdfjalksd fasjflkajsdasf asjfkajsdklfjas"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/busNumber"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="1"/>
+</LinearLayout>
